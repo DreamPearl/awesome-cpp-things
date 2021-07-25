@@ -31,7 +31,8 @@ jobs:
       run: ctest -C ${{env.BUILD_TYPE}}
 
     - name: Run executable
-      working-directory: ${{github.workspace}}
+      if: runner.os == 'macOS' || runner.os == 'Linux'
+      working-directory: ${{github.workspace}}/build
       run: ./yeslinux-nomac
       shell: bash
 
