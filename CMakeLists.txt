@@ -9,7 +9,7 @@ set(EXEC1 yeslinux-nomac)
 # set(EXEC2 compile_time_variable)
 
 # puts .cpp file to the SOURCES variable
-file(GLOB SOURCES1 yeslinux-nomac.cpp)
+file(GLOB SOURCES1 src/yeslinux-nomac.cpp)
 # file(GLOB SOURCES2 compile_time_variable.cpp)
 
 # compiles the files defined by SOURCES to generate the executable defined by EXEC
