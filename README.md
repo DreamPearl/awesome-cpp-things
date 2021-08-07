@@ -1,4 +1,5 @@
 # awesome-cpp-things
+[![CMake](https://github.com/DreamPearl/awesome-cpp-things/actions/workflows/build.yml/badge.svg)](https://github.com/DreamPearl/awesome-cpp-things/actions/workflows/build.yml)
 
 ### yeslinux-nomac.cpp 
 A program that will print something according to the OS using Preprocessors macros( i.e. Linux/Mac/Windows). (CMake)
