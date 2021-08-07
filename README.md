@@ -17,3 +17,6 @@ run ```./output```
 For example:  
 run ```g++ -DNAME=\"Rakhi\" compile_time_variable.cpp -o output```  
 run ```./output```  
+
+### square.cpp
+Demonstrate conditional preprocessor directives to manage the duplicacy of header files.
